@@ -1,0 +1,40 @@
+body {
+    background-color: #9BC1BC;
+}
+
+.form-control {
+    max-width: 400px;
+    
+    
+}
+.form-control:focus {
+  box-shadow:0 0 3px 0.2rem #F4F1BB;
+  
+}
+.product-container {
+    max-width: 400px;
+    min-width: 200px;
+}
+.product-item-container {
+    user-select: none;
+    cursor:pointer;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    
+    
+    
+}
+.product-item {
+    background-color: #F4F1BB;
+    width: 100%;
+    padding: 6px 10px;
+}
+.line-through {
+    text-decoration: line-through;
+}
+
+.bi-trash-fill {
+    font-size: 1.5em;
+    color: #A31621 ;
+}
